@@ -25,6 +25,10 @@ Or install it yourself as:
 	Luhn::Validator.valid? number
 	# => true
 
+  number = '78345979'
+  Luhn::Validator.checksum? number
+  # => 5
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -39,7 +43,7 @@ The gem is available as open source under the terms of the [MIT License](http://
 ### Status
 
 	Em produção
-	
+
 ## Authors
 
-* **Denis Nascimento** 
+* **Denis Nascimento**
