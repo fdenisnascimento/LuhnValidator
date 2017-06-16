@@ -25,9 +25,9 @@ Or install it yourself as:
 	Luhn::Validator.valid? number
 	# => true
 
-  number = '78345979'
-  Luhn::Validator.checksum? number
-  # => 5
+	number = '78345979'
+  	Luhn::Validator.checksum? number
+  	# => 5
 
 ## Development
 
